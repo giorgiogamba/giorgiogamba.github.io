@@ -28,5 +28,20 @@ p {
 }
 
 a:hover {
-    background-color: yellow;
+    background-color: orange;
+    color:black;
+}
+
+/* Social buttons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+  
+.fa:hover {
+  opacity: 0.7;
+  color:black;
 }
