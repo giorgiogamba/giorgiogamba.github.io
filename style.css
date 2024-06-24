@@ -32,6 +32,11 @@ a:hover {
     color:black;
 }
 
+.navbar-expand-sm .active {
+    background-color: orange;
+    color:black;
+}
+
 /* Social buttons */
 .fa {
   padding: 20px;
