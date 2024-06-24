@@ -22,3 +22,7 @@ body {
 .contained {
     color: white;
 }
+
+p {
+    white-space: pre-line;
+}
