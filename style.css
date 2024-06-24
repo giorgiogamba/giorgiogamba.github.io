@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+#title {
+    color: white;
+    font-family: Helvetica;
+}
+
+.navbar-expand-sm {
+    background-color: black;
+}
+
+.nav-link {
+    color: white;
+}
+
+.text-muted {
+    color: white
+}
+
+.contained {
+    color: white;
+}
+
+p {
+    white-space: pre-line;
+}
+
+a:hover {
+    background-color: orange;
+    color:black;
+}
+
+.navbar-expand-sm .active {
+    background-color: orange;
+    color:black;
+}
+
+/* Social buttons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+  
+.fa:hover {
+  opacity: 0.7;
+  color:black;
+}
