@@ -30,6 +30,10 @@ p {
     white-space: pre-line;
 }
 
+h2 {
+    color: orange;
+}
+
 a:hover {
     background-color: rgb(10, 107, 129);
     color:orange;
