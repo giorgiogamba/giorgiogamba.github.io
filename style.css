@@ -61,3 +61,8 @@ a:hover {
   opacity: 0.7;
   color:orange;
 }
+
+.carousel {
+    margin: auto;
+    width: 50%;
+}
