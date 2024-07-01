@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: rgb(23, 29, 48);
 }
 
 #title {
@@ -8,9 +8,12 @@ body {
 }
 
 .navbar-expand-sm {
-    background-color: black;
+    background-color: rgb(23, 29, 48);
 }
 
+.nav-link {
+    color: white;
+}
 .nav-link {
     color: white;
 }
@@ -27,14 +30,22 @@ p {
     white-space: pre-line;
 }
 
+h2 {
+    color: orange;
+}
+
 a:hover {
-    background-color: orange;
-    color:black;
+    background-color: rgb(10, 107, 129);
+    color:orange;
 }
 
 .navbar-expand-sm .active {
-    background-color: orange;
-    color:black;
+    background-color: rgb(10, 107, 129);
+    color:orange;
+}
+
+.resumeTimeAndSpace {
+    color: lightslategrey;
 }
 
 /* Social buttons */
@@ -48,7 +59,7 @@ a:hover {
   
 .fa:hover {
   opacity: 0.7;
-  color:black;
+  color:orange;
 }
 
 .carousel {
