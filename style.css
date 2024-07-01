@@ -66,3 +66,7 @@ a:hover {
     margin: auto;
     width: 50%;
 }
+
+.text-justify  {
+    text-align: justify;
+}
