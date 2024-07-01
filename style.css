@@ -50,3 +50,8 @@ a:hover {
   opacity: 0.7;
   color:black;
 }
+
+.carousel {
+    margin: auto;
+    width: 50%;
+}
