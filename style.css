@@ -1,5 +1,6 @@
 body {
     background-color: rgb(23, 29, 48);
+    height: 100vh;
 }
 
 #title {
@@ -9,6 +10,10 @@ body {
 
 .navbar-expand-sm {
     background-color: rgb(23, 29, 48);
+}
+
+.container {
+    margin-top: 50px;
 }
 
 .nav-link {
@@ -24,6 +29,10 @@ body {
 
 .contained {
     color: white;
+}
+
+.container {
+    height: 100%;
 }
 
 p {
