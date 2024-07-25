@@ -1,5 +1,6 @@
 body {
     background-color: rgb(23, 29, 48);
+    height: 100vh;
 }
 
 #title {
@@ -9,6 +10,10 @@ body {
 
 .navbar-expand-sm {
     background-color: rgb(23, 29, 48);
+}
+
+.container {
+    margin-top: 50px;
 }
 
 .nav-link {
@@ -26,8 +31,13 @@ body {
     color: white;
 }
 
+.container {
+    height: 100%;
+}
+
 p {
     white-space: pre-line;
+    color: white;
 }
 
 h2 {
@@ -70,3 +80,12 @@ a:hover {
 .text-justify  {
     text-align: justify;
 }
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:lightgray;
+    height: 1px;
+  }
