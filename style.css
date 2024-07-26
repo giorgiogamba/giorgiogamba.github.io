@@ -89,3 +89,14 @@ hr {
     background-color:lightgray;
     height: 1px;
   }
+
+.navbar-toggler-icon{
+    background-color: orange;
+}
+
+/* Profile pic size for mobile visualization */
+@media (max-width: 767px) {
+    .img-mob {
+      width: 60%;
+    }
+}
