@@ -14,12 +14,16 @@ body {
 
 .container {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .nav-link {
     color: white;
 }
-.nav-link {
+.nav-link:hover {
+    color: white;
+}
+.nav-link:active {
     color: white;
 }
 
@@ -42,11 +46,6 @@ p {
 
 h2 {
     color: orange;
-}
-
-a:hover {
-    background-color: rgb(10, 107, 129);
-    color:orange;
 }
 
 .navbar-expand-sm .active {
@@ -97,6 +96,6 @@ hr {
 /* Profile pic size for mobile visualization */
 @media (max-width: 767px) {
     .img-mob {
-      width: 60%;
+      width: 50%;
     }
 }
