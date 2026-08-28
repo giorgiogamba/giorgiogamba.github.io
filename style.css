@@ -658,6 +658,8 @@
             flex-wrap: wrap;
             gap: 0.6rem;
             margin-top: 1rem;
+            min-height: 2.8rem;
+            align-content: flex-start;
         }
 
         .tech-tag {
@@ -685,6 +687,8 @@
             position: relative;
             overflow: hidden;
             box-shadow: var(--shadow-sm);
+            display: flex;
+            flex-direction: column;
         }
 
         /* Progressive blue tint: each card a deeper shade */
@@ -694,22 +698,27 @@
         }
         .project-card:nth-child(2) {
             background: #0d1520;
-            border-color: rgba(77, 159, 255, 0.18);
+            border-color: rgba(77, 159, 255, 0.20);
         }
         .project-card:nth-child(3) {
             background: #0d1b2a;
-            border-color: rgba(77, 159, 255, 0.28);
+            border-color: rgba(77, 159, 255, 0.30);
         }
         .project-card:nth-child(4) {
             background: #0d2135;
-            border-color: rgba(77, 159, 255, 0.38);
+            border-color: rgba(77, 159, 255, 0.40);
+        }
+        .project-card:nth-child(5) {
+            background: #0d2940;
+            border-color: rgba(77, 159, 255, 0.50);
         }
 
         /* Accent top bar colour mirrors depth */
         .project-card:nth-child(1)::before { --card-accent: rgba(77, 159, 255, 0.50); }
-        .project-card:nth-child(2)::before { --card-accent: rgba(77, 159, 255, 0.70); }
-        .project-card:nth-child(3)::before { --card-accent: rgba(77, 159, 255, 0.90); }
-        .project-card:nth-child(4)::before { --card-accent: rgba(77, 159, 255, 1.00); }
+        .project-card:nth-child(2)::before { --card-accent: rgba(77, 159, 255, 0.625); }
+        .project-card:nth-child(3)::before { --card-accent: rgba(77, 159, 255, 0.75); }
+        .project-card:nth-child(4)::before { --card-accent: rgba(77, 159, 255, 0.875); }
+        .project-card:nth-child(5)::before { --card-accent: rgba(77, 159, 255, 1.00); }
 
         .project-card::before {
             content: '';
@@ -768,10 +777,20 @@
             margin-bottom: 0.8rem;
         }
 
+        .project-title-link {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        .project-title-link:hover {
+            color: var(--accent-primary);
+        }
+
         .project-description {
             color: var(--text-tertiary);
             line-height: 1.7;
             margin-bottom: 1.5rem;
+            flex: 1;
         }
 
         /* Skills Grid */
