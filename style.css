@@ -939,3 +939,21 @@
                 margin: 0 auto;
             }
         }
+
+/* Reserve the embedded video's space and fit narrow screens. */
+.experience-media iframe {
+    display: block;
+    width: 100%;
+    max-width: 560px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation: none !important;
+        transition: none !important;
+        scroll-behavior: auto !important;
+    }
+}
